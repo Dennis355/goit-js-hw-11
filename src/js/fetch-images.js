@@ -1,6 +1,7 @@
 import axios from 'axios'
 export { fetchImages }
 
+
 axios.defaults.baseURL = 'https://pixabay.com/api/'
 const KEY = '33402985-baebf4c5b13a450aa17c962d8'
 
